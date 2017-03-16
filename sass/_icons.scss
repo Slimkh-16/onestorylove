@@ -1,0 +1,60 @@
+$icon_font_name:"Icons";
+@font-face {
+	font-family:$icon_font_name;
+	src: url('fonts/Icons.eot');
+	src: url('fonts/Icons.eot?#iefix') format('eot'),
+	url('fonts/Icons.woff') format('woff'),
+	url('fonts/Icons.ttf') format('truetype'),
+	url('fonts/Icons.svg#Icons') format('svg');
+}
+[class*='icon-']:before{
+   font-family: $icon_font_name;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+
+.icon-1:before {
+	content:'\E001';
+}
+.icon-10:before {
+	content:'\E002';
+}
+.icon-11:before {
+	content:'\E003';
+}
+.icon-12:before {
+	content:'\E004';
+}
+.icon-13:before {
+	content:'\E005';
+}
+.icon-14:before {
+	content:'\E006';
+}
+.icon-2:before {
+	content:'\E007';
+}
+.icon-3:before {
+	content:'\E008';
+}
+.icon-4:before {
+	content:'\E009';
+}
+.icon-5:before {
+	content:'\E00A';
+}
+.icon-6:before {
+	content:'\E00B';
+}
+.icon-7:before {
+	content:'\E00C';
+}
+.icon-8:before {
+	content:'\E00D';
+}
+.icon-9:before {
+	content:'\E00E';
+}
