@@ -26,7 +26,6 @@
       js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8";
       fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-      
     </script>
     <noscript>
       <style>.preloader {display:none !important;}</style>
@@ -126,7 +125,7 @@
             </div>
             <div class="col l6 m12 s12 align-center">
               <div class="ipad-box-right"><img src="images/ipad.png" alt="">
-                <div class="ipad-box-button"><span>Поздравляю!<br>Конечно буду</span><span>К сожалению,<br>не смогу :(</span><span>Ой! Отвечу<br>в ближайшее время</span></div>
+                <div class="ipad-box-button"><span>Поздравляю!<br>Конечно буду</span><span>К сожалению,<br>не смогу :(</span><span>Спасибо! Отвечу<br>в ближайшее время</span></div>
               </div>
             </div>
           </div>
@@ -163,7 +162,7 @@
                 </div>
                 <div class="chat-item chat-item--answer">
                   <div class="chat-item__txt">Церемония начнется в 16.30. А ссылку на карту проезда я сейчас закину на сайт.</div>
-                  <div class="chat-item__avatar"><img src="images/peop1.jpg" alt=""><span>Невеста Юля</span></div>
+                  <div class="chat-item__avatar"><img src="images/peop2.jpg" alt=""><span>Невеста Юля</span></div>
                 </div>
               </div>
             </div>
@@ -249,6 +248,8 @@
       <!--fifth section-->
       <!--sixfth section section-->
       <section class="sixth-section">
+        <script type="text/javascript" src="//vk.com/js/api/openapi.js?142"></script>
+        <!-- VK Widget-->
         <div class="container">
           <div class="row">
             <div data-animation="InLeft" class="col l6 m12 s12 animated">
@@ -257,13 +258,13 @@
                 <div class="white-box__heading">Подпишись на новости</div>
                 <div class="white-box__subheading">Lorem ipsum dolor sit amet, te ius iusto eleifend repudiare. Duo ad sale quando senserit, sit causae hendrerit cu. Lorem ipsum dolor sit amet.</div>
                 <div class="white-box-body">
-                  <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fzuck&amp;width=450&amp;height=80&amp;layout=standard&amp;size=small&amp;show_faces=true&amp;appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
-                  <script type="text/javascript" src="//vk.com/js/api/openapi.js?142"></script>
-                  <!-- VK Widget-->
-                  <div id="vk_groups"></div>
-                  <script type="text/javascript">VK.Widgets.Group("vk_groups", {mode: 3}, 20003922);</script>
-                  <script src="https://apis.google.com/js/platform.js" async="" defer=""></script>
-                  <div data-action="share" data-height="15" class="g-plus"></div>
+                  <div class="widget-box">
+                    <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fzuck&amp;width=450&amp;height=80&amp;layout=standard&amp;size=small&amp;show_faces=true&amp;appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+                    <div id="vk_groups"></div>
+                    <script type="text/javascript">VK.Widgets.Group("vk_groups", {mode: 3}, 20003922);</script>
+                    <script src="https://apis.google.com/js/platform.js" async="" defer="">{lang: 'ru'}</script>
+                    <div data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/113203793518092956265" data-rel="author" class="g-follow"></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -273,10 +274,13 @@
                 <div class="white-box__heading">Расскажи другим</div>
                 <div class="white-box__subheading">Lorem ipsum dolor sit amet, te ius iusto eleifend repudiare. Duo ad sale quando senserit, sit causae hendrerit cu. Lorem ipsum dolor sit amet.</div>
                 <div class="white-box-body">
-                  <div data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" class="fb-like"></div>
-                  <div data-uri="https://www.instagram.com/facebook/" data-size="large" class="fb-save"></div>
-                  <script src="https://apis.google.com/js/platform.js" async="" defer=""></script>
-                  <div data-annotation="inline" data-width="300" class="g-plusone"></div>
+                  <div class="widget-box">
+                    <div data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true" class="fb-like"></div><br>
+                    <div data-uri="https://www.instagram.com/facebook/" data-size="large" class="fb-save"></div><br>
+                    <script src="https://apis.google.com/js/platform.js" async="" defer="">{lang: 'ru'}</script><br>
+                    <div data-size="tall" data-annotation="none" class="g-plusone"></div><br>
+                    <div class="vk"><img src="images/vk.jpg" alt=""></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -338,9 +342,9 @@
           </div>
           <div class="col m6 s12 align-right">
             <ul class="social">
-              <li><a href="#" target="_blank"><span class="icon-12"></span></a></li>
-              <li><a href="#" target="_blank"><span class="icon-13"></span></a></li>
-              <li><a href="#" target="_blank"><span class="icon-14">      </span></a></li>
+              <li><a href="#" target="_blank"><span class="icon-6"></span></a></li>
+              <li><a href="#" target="_blank"><span class="icon-7"></span></a></li>
+              <li><a href="#" target="_blank"><span class="icon-8">      </span></a></li>
             </ul>
           </div>
         </div>
